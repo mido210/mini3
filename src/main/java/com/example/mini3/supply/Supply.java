@@ -7,6 +7,7 @@ import java.time.*;
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
 @ToString
 public class Supply {

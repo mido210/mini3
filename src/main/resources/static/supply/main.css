@@ -1,3 +1,78 @@
 * {
   margin: 0; padding: 0 ; box-sizing: border-box;
 }
+
+#app {
+  width: 1200px;
+  /* 가운데 정렬 */
+  margin: 0 auto;
+}
+
+header, nav, footer {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+header {
+  border: 1px solid rgb(200, 200, 200);
+  font-size: 1.25em;
+  letter-spacing: 1em;
+  font-weight: bold;
+}
+
+main {
+  overflow: hidden;
+}
+/* 메인 밑에 있는 모든 거 */
+main>* {
+  float: left;
+}
+
+aside {
+  height: 200px;
+  line-height: 200px;
+  width: 100px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+section {
+  width: 1000px;
+  min-height: 600px;
+  padding: 3px;
+}
+
+footer {
+  border: 1px solid darkcyan;
+}
+
+nav {
+  background-color: #212529;
+}
+
+nav>ul {
+  /* 동그라미 점 없애는거 */
+  list-style: none;
+  overflow: hidden;
+}
+
+nav>ul>li {
+  float: left;
+  width: 120px;
+  background-color: #212529;
+}
+
+nav>ul>li>a {
+  /* 글자 밑에 선 없애는거 */
+  text-decoration: none;
+  color: #797c7f;
+  font-weight: bold;
+  /* 적당히 눌러도 적용되게 */
+  display: block;
+}
+
+nav>ul>li>a:hover {
+  color:white;
+  background-color: #333;
+}
