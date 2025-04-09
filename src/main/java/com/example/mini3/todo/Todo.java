@@ -8,6 +8,7 @@ import java.time.*;
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
 @ToString
 public class Todo {
@@ -17,5 +18,5 @@ public class Todo {
   private LocalDate regDate;
   @DateTimeFormat(pattern="yyyy-MM-dd")
   private LocalDate deadline;
-  private Boolean finish;
+  private Integer finish =0;
 }
