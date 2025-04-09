@@ -1,4 +1,4 @@
-package com.example.mini_03.todo;
+package com.example.mini3.todo;
 
 import lombok.*;
 import org.springframework.format.annotation.*;

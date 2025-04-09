@@ -1,4 +1,4 @@
-package com.example.mini_03.contact;
+package com.example.mini3.contact;
 
 import lombok.*;
 

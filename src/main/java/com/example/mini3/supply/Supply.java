@@ -1,4 +1,4 @@
-package com.example.mini_03.supply;
+package com.example.mini3.supply;
 
 import lombok.*;
 
